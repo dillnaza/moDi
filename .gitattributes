@@ -1,2 +1,23 @@
-/mvnw text eol=lf
-*.cmd text eol=crlf
+# Handle line endings
+* text=auto
+
+# Java files
+*.java text diff=java
+
+# JSON, YAML, XML
+*.json text
+*.yml text
+*.yaml text
+*.xml text
+
+# Markdown and docs
+*.md text
+*.txt text
+
+# Prevent binary diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.pdf binary
